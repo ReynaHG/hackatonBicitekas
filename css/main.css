@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/*Estilos Reyna HG */
+/*Margenes y paddings */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  font-family: "Open Sans", sans-serif; }
+
+/*Generales */
+.text-gray {
+  color: #4C4A49; }
+
+.text-blue {
+  color: #2983d6; }
+
+.text-orange {
+  color: #fc6d34; }
+
+.font-fat {
+  font-weight: bolder; }
+
+.bg-gris {
+  background-color: #f2f2ee; }
+
+/*Qu├® hacemos */
+.WhatWeDo {
+  margin-bottom: 7%; }
+  .WhatWeDo h2 {
+    margin-top: 6%;
+    margin-bottom: 2%; }
+  .WhatWeDo .margen-row {
+    margin-top: 6%; }
+  .WhatWeDo img {
+    height: 5em;
+    width: 5.2em; }
+  .WhatWeDo .img-ancha {
+    height: 4.5em;
+    width: 6.5em; }
+  .WhatWeDo h3 {
+    color: #fc6d34;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    margin-top: 2%; }
+  .WhatWeDo p {
+    color: #4C4A49; }
+    .WhatWeDo p span {
+      font-weight: bolder; }
+
+/*Header */
+.img-cabecera {
+  background-image: url(../img/biciteka_principal_03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 60em; }
+
+/*estilo */
+.dona-section {
+  margin-top: 15em;
+  margin-right: 4em;
+  line-height: 5em; }
+  .dona-section p {
+    color: #4C4A49;
+    font-size: 7.5em !important;
+    font-weight: bolder; }
+  .dona-section .p-2 {
+    font-size: 4.5em !important; }
+  .dona-section .texto_header {
+    margin-top: 2%;
+    font-size: 1.6em !important;
+    line-height: normal; }
+  .dona-section .ajuste-derecha {
+    margin-left: 53em; }
+    .dona-section .ajuste-derecha .btn-dona {
+      border-radius: 3em;
+      padding: 1% 3% 2% 1%;
+      font-weight: bolder;
+      font-size: 1.5em; }
+
+/*navbar */
+.nav-ajuste li {
+  padding-top: 1.1em !important; }
+
+/*Bootstrap modifications */
+.navbar-default {
+  background-color: #57b844;
+  border-color: #57b844;
+  color: white; }
+
+.navbar-brand {
+  height: 4em;
+  width: 14.5em; }
+
+/*Pleca */
+.pleca, .pleca-1, .pleca-2, .pleca-3, .pleca-4 {
+  height: 0.5em; }
+
+.pleca-1 {
+  background-color: #2983d6;
+  width: 20% !important; }
+
+.pleca-2 {
+  background-color: #7d1177;
+  width: 30%; }
+
+.pleca-3 {
+  background-color: #fc6d34;
+  width: 30%; }
+
+.pleca-4 {
+  background-color: #ffcc00;
+  width: 20%;
+  /******* */
+  /*Equipo */ }
+
+.team h2 {
+  color: #fc6d34;
+  margin-top: 6%;
+  margin-bottom: 5%; }
+.team .bg-img {
+  background-color: #2983d6;
+  border-radius: 50em;
+  width: 10em;
+  height: 10em; }
+  .team .bg-img img {
+    height: 10em;
+    width: 10em; }
+.team h4 {
+  color: #4C4A49;
+  font-weight: bolder; }
+.team h5 {
+  color: #2983d6;
+  font-weight: bolder; }
+.team .center-team div {
+  display: inline-block;
+  margin-top: 1em; }
+.team .center-team h4 {
+  font-size: 1.1em; }
+.team .center-team-5 {
+  margin-top: 5%;
+  margin-bottom: 3%; }
+  .team .center-team-5 .ajuste-team {
+    padding-left: 10%; }
+  .team .center-team-5 .ajuste-team-2 {
+    padding-right: 11%; }
+  .team .center-team-5 h4 {
+    font-size: 1em; }
+.team a {
+  border-radius: 5em;
+  font-weight: bolder;
+  margin-bottom: 5%; }
+
+.publicaciones h2 {
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  color: #fc6d34;
+  font-weight: bolder; }
+
+.contact {
+  background-color: #fc6d34;
+  padding-bottom: 3em; }
+  .contact h4 {
+    color: white !important;
+    text-align: center; }
+  .contact h2 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 5%;
+    margin-top: -2em;
+    padding-top: 5em; }
+  .contact address {
+    padding-top: 8em;
+    color: white; }
+    .contact address .fa-map-marker, .contact address .fa-envelope {
+      margin-right: 1em; }
+  .contact .logo-address {
+    margin-top: 7em;
+    margin-left: -2em; }
+  .contact button {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    border-radius: 5em;
+    font-weight: bolder;
+    padding: 2%, 4%;
+    margin-bottom: 5em; }
+  .contact iframe {
+    padding-top: 8em;
+    margin-bottom: 5em; }
+
+footer {
+  background-color: #57b844;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+  footer h6 {
+    margin-top: 2%;
+    color: white;
+    font-size: 0.9em; }
+  footer img {
+    border-radius: 0.5em;
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 1.5em; }
+  footer a:hover {
+    text-decoration: none; }
+
+.Mediateca h4 {
+  padding-top: 2%;
+  padding-bottom: -1%; }
+.Mediateca iframe {
+  padding-right: 2em !important; }
+.Mediateca img {
+  margin-left: -5em !important;
+  margin-top: 3em; }
+
+/*----------------------FIN ESTILOS REYNA HG-------------------------- */
+/*Reyna HG */
+@media(max-width:700px) {
+  .img-cabecera {
+    background-image: url(../img/biciteka_cel.jpg);
+    background-size: 100% 100%;
+    margin-top: -3em;
+    height: 30em; }
+
+  .dona-section {
+    margin-right: 2em;
+    line-height: 1; }
+    .dona-section p {
+      font-size: 2em !important;
+      font-weight: bolder; }
+    .dona-section .p-2 {
+      font-size: 1em !important; }
+    .dona-section .texto_header {
+      font-size: 0.7em !important;
+      line-height: normal;
+      margin-bottom: 1em; }
+    .dona-section .ajuste-derecha {
+      margin-left: 17em; }
+      .dona-section .ajuste-derecha .btn-dona {
+        border-radius: 3em;
+        padding: 1.5% 2% 1.5% 2%;
+        font-weight: bolder;
+        font-size: 0.6em; }
+
+  .team {
+    margin-top: 5%; }
+    .team h2 {
+      color: #fc6d34;
+      margin-top: 6%;
+      margin-bottom: 5%; }
+    .team .bg-img {
+      background-color: #2983d6;
+      border-radius: 50em;
+      width: 7em;
+      height: 7em; }
+      .team .bg-img img {
+        height: 7em;
+        width: 7em; }
+    .team h4 {
+      color: #4C4A49;
+      font-weight: bolder;
+      font-size: 0.8em; }
+    .team h5 {
+      color: #2983d6;
+      font-weight: bolder;
+      font-size: 0.8em; }
+    .team .center-team div {
+      display: inline-block;
+      margin-top: 1em; }
+    .team .center-team h4 {
+      font-size: 0.7em; }
+    .team .center-team-5 {
+      margin-top: 5%;
+      margin-bottom: 3%; }
+      .team .center-team-5 .ajuste-team {
+        padding-left: 10%; }
+      .team .center-team-5 .ajuste-team-2 {
+        padding-right: 11%; }
+      .team .center-team-5 h4 {
+        font-size: 0.8em; }
+      .team .center-team-5 .bg-img {
+        background-color: #2983d6;
+        border-radius: 50em;
+        width: 4em;
+        height: 4em; }
+      .team .center-team-5 img {
+        height: 4em;
+        width: 4em; }
+
+  .contact .logo-address {
+    position: absolute;
+    top: -9em;
+    margin-left: 9em;
+    height: 8em;
+    width: 9em; }
+  .contact address {
+    margin-top: 5em;
+    text-align: center; }
+  .contact button {
+    margin-bottom: -5em; }
+  .contact form h2 {
+    margin-top: -5em; }
+  .contact iframe {
+    margin-bottom: -1em; }
+
+  footer h6 {
+    font-size: 0.7em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center; }
+  footer img {
+    margin-right: 3.2em;
+    height: 2.2em;
+    width: 2.2em; }
+  footer span {
+    text-align: center; }
+
+  .Mediateca form {
+    margin-bottom: -5em; }
+  .Mediateca iframe {
+    margin-bottom: 4em; }
+  .Mediateca h4 {
+    font-size: 1.2em; }
+  .Mediateca h5 {
+    font-size: 0.8em !important; }
+  .Mediateca img {
+    width: 4em;
+    height: 4em;
+    margin-left: -2em !important; }
+  .Mediateca span {
+    margin-bottom: 3em; } }
+/*LUPITA*/
+.Us h2 {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  color: #2983d6;
+  font-weight: bolder; }
+
+.Us .espacio {
+  padding: 0em 2em; }
+
+.Us .espacio-1 {
+  padding: 0em 1.1em; }
+
+.Us .bg-orange, .bg-green {
+  background: #fc6d34;
+  height: 20em;
+  padding: 4em 1.5em 0 1.5em; }
+  .Us .bg-orange h3, .Us .bg-orange p, .bg-green h3, .bg-green p {
+    color: #fff; }
+
+.Us .col-sm-12 {
+  padding-right: 0;
+  padding-left: 0; }
+
+.Us .chicos {
+  background-image: url(../img/US_CHICOS.jpg);
+  background-size: cover;
+  height: 20em; }
+
+.Us .bg-green {
+  background: #57b844;
+  height: 20em; }
+
+.Us .bicicletas {
+  background-image: url(../img/Us_bicicletas.jpg);
+  background-size: cover;
+  height: 20em; }
+
+/*Seccion Participa*/
+.Mediateca h2 {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  color: #2983d6;
+  font-weight: bolder; }
+
+.Mediateca h4 {
+  color: #fc6d34;
+  margin-top: 0em; }
+
+.top {
+  margin-top: 1em; }
+
+.audio {
+  width: 1.5em;
+  margin-top: 1em;
+  margin-left: 0%; }
+
+.txt-audio {
+  padding-left: 2em;
+  padding-top: -10em; }
+
+.Mediateca
+h5 {
+  color: #2983d6;
+  padding-top: -2em;
+  font-size: 1.1em;
+  text-align: left; }
+
+.fa-asterisk {
+  font-size: .5em !important; }
+
+/*Seccion Participa*/
+.Participa {
+  background: #f2f2ee;
+  margin-top: 6%; }
+
+.Participa h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #fc6d34;
+  font-weight: bolder; }
+
+.Participa span {
+  font-weight: bolder;
+  color: #fc6d34; }
+
+.Participa .ciclista {
+  height: 37em; }
+
+/*Fuente */
+
+/*# sourceMappingURL=main.css.map */
